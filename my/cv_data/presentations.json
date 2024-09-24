@@ -1,0 +1,50 @@
+{
+  "presentations": [
+    {
+      "conference": "WasteEng22 - The 9th International Conference on Engineering for Waste and Biomass Valorisation",
+      "location": "Copenhagen, Denmark",
+      "startDate": "2022-06-27",
+      "endDate": "2022-06-30",
+      "title": "Legitimation of differential scanning calorimetry for the study of hydrothermal carbonization and liquefaction.",
+      "type": "Oral",
+      "award": "Best Oral Flash Award",
+      "code": "esg"
+    },
+    {
+      "conference": "EUBCE 2022 - 30th European Biomass Conference and Exhibition",
+      "location": "Online",
+      "startDate": "2022-05-09",
+      "endDate": "2022-05-12",
+      "title": "A Newly Designed Pilot-Scale Continuous Reactor for Hydrothermal Liquefaction: Preliminary Results and Validation of an Enhanced Thermodynamic Model.",
+      "type": "Oral",
+      "code": "b"
+    },
+    {
+      "conference": "WasteEng21 - The 8th International Conference on Engineering for Waste and Biomass Valorisation",
+      "location": "Online",
+      "startDate": "2021-05-31",
+      "endDate": "2021-06-04",
+      "title": "Valorisation of lignocellulosics residues from herbal medicine production.",
+      "type": "Oral",
+      "code": "esg"
+    },
+    {
+      "conference": "EUBCE 2021 - 29th European Biomass Conference and Exhibition",
+      "location": "Online",
+      "startDate": "2021-04-26",
+      "endDate": "2021-04-29",
+      "title": "Hydrothermal carbonization of lignocellulosic biomass from para-pharmaceutical and herbal medicine production.",
+      "type": "Oral",
+      "code": "esg"
+    },
+    {
+      "conference": "EUBCE 2020 - 28th European Biomass Conference and Exhibition",
+      "location": "Online",
+      "startDate": "2020-07-06",
+      "endDate": "2020-07-09",
+      "title": "Exploitation of lignocellulosic biomass from para-pharmaceutical and herbal medicine production.",
+      "type": "Poster",
+      "code": "esg"
+    }
+  ]
+}

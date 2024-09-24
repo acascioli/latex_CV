@@ -1,0 +1,37 @@
+{
+  "education": [
+    {
+      "institution": "Free University of Bozen-Bolzano",
+      "url": "https://unibz.it",
+      "area": "Energy Engineering",
+      "studyType": "Master",
+      "startDate": "2017-09-01",
+      "endDate": "2019-10-01",
+      "score": null,
+      "courses": null,
+      "code": "b"
+    },
+    {
+      "institution": "FAU Erlangen-Nürnberg",
+      "url": "https://fau.de",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2015-09-01",
+      "endDate": "2016-03-01",
+      "score": null,
+      "courses": null,
+      "code": "b"
+    },
+    {
+      "institution": "University of Perugia",
+      "url": "https://unipg.it",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2013-09-01",
+      "endDate": "2017-04-01",
+      "score": null,
+      "courses": null,
+      "code": "b"
+    }
+  ]
+}

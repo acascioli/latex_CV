@@ -1,0 +1,48 @@
+{
+  "basics": {
+    "name": "Alessandro Cascioli",
+    "label": "Energy Engineer, PhD",
+    "image": "/assets/Cascioli/Cascioli_pic.jpg",
+    "email": "alessandro.cascioli@protonmail.com",
+    "phone": "+39 348 5637707",
+    "piva": "01708920556",
+    "url": "https://alessandroacscioli.com",
+    "onion": "http://alex3ietksowmumwj7dudct7wqtvlihssnc2s2uqa76j4frgbot2inad.onion",
+    "summary": "",
+    "theme": "default",
+    "location": {
+      "address": "Viale Aleardi, 6",
+      "postalCode": "05100",
+      "city": "Terni",
+      "countryCode": "IT",
+      "region": "Italy"
+    }
+  },
+  "profiles": [
+    {
+      "network": "LinkedIn",
+      "username": "acascioli",
+      "url": "https://www.linkedin.com/in/alessandro-cascioli-778370149/"
+    },
+    {
+      "network": "Scholar",
+      "username": "acascioli",
+      "url": "https://scholar.google.com/citations?user=Jg8dwfUAAAAJ&hl=en"
+    },
+    {
+      "network": "ORCID",
+      "username": "acascioli",
+      "url": "https://orcid.org/0000-0002-4337-6716"
+    },
+    {
+      "network": "GitHub",
+      "username": "acascioli",
+      "url": "https://github.com/acascioli"
+    },
+    {
+      "network": "Onion",
+      "username": "acascioli",
+      "url": "http://alex3ietksowmumwj7dudct7wqtvlihssnc2s2uqa76j4frgbot2inad.onion"
+    }
+  ]
+}

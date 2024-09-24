@@ -1,0 +1,27 @@
+{
+  "volunteer": [
+    {
+      "organization": "Civil protection Terni",
+      "position": "Volunteer",
+      "url": null,
+      "startDate": "2010-01-01",
+      "endDate": "2013-01-01",
+      "summary": null,
+      "highlights": [
+        "Work carried out in an integrated manner with the components and operational structures of the National Service both in ordinary and emergency and regular participation in the exercise activities to ensure full synergy with all the players in the System.",
+        "Fire surveillance during the summer period."
+      ]
+    },
+    {
+      "organization": "Apav",
+      "position": "Volunteer",
+      "url": null,
+      "startDate": "2008-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Helped organize coding workshops and mentored new members.",
+      "highlights": [
+        "Support in carrying out study activities for dyslexic and dyscalculic children and teenagers."
+      ]
+    }
+  ]
+}

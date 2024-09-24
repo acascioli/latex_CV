@@ -1,0 +1,39 @@
+{
+  "certificates": [
+    {
+      "name": "Specific course for ESG-SDGs Auditor/Lead Auditor and Consultant related to the ESG-SDGs Rating:2022©",
+      "date": "2023-10-01",
+      "issuer": "CERTIFICATION Srl",
+      "url": "Credential ID 031/2023",
+      "code": "esg"
+    },
+    {
+      "name": "ISO/IEC 27001:2022 Transition Course",
+      "date": "2023-08-01",
+      "issuer": "SGS",
+      "url": null,
+      "code": "it"
+    },
+    {
+      "name": "DeepLearning.AI TensorFlow Developer Specialization",
+      "date": "2023-03-01",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/D4TVSM4ELBZS",
+      "code": "it"
+    },
+    {
+      "name": "State examination for the qualification to practice as an Energy and Nuclear Engineer",
+      "date": "2020-07-01",
+      "issuer": "University of Trento",
+      "url": null,
+      "code": "esg"
+    },
+    {
+      "name": "ISO/IEC 27001:2013 - Information Security Management Systems Auditor/Lead Auditor Training Course",
+      "date": "2019-08-01",
+      "issuer": "SGS",
+      "url": null,
+      "code": "it"
+    }
+  ]
+}

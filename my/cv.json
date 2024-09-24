@@ -1,0 +1,559 @@
+{
+  "basics": {
+    "name": "Alessandro Cascioli",
+    "label": "Energy Engineer, PhD",
+    "image": "/assets/Cascioli/Cascioli_pic.jpg",
+    "email": "alessandro.cascioli@protonmail.com",
+    "phone": "+39 348 5637707",
+    "piva": "01708920556",
+    "url": "https://alessandroacscioli.com",
+    "onion": "http://alex3ietksowmumwj7dudct7wqtvlihssnc2s2uqa76j4frgbot2inad.onion",
+    "summary": "",
+    "theme": "default",
+    "location": {
+      "address": "Viale Aleardi, 6",
+      "postalCode": "05100",
+      "city": "Terni",
+      "countryCode": "IT",
+      "region": "Italy"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "acascioli",
+        "url": "https://www.linkedin.com/in/alessandro-cascioli-778370149/"
+      },
+      {
+        "network": "Scholar",
+        "username": "acascioli",
+        "url": "https://scholar.google.com/citations?user=Jg8dwfUAAAAJ&hl=en"
+      },
+      {
+        "network": "ORCID",
+        "username": "acascioli",
+        "url": "https://orcid.org/0000-0002-4337-6716"
+      },
+      {
+        "network": "GitHub",
+        "username": "acascioli",
+        "url": "https://github.com/acascioli"
+      },
+      {
+        "network": "Onion",
+        "username": "acascioli",
+        "url": "http://alex3ietksowmumwj7dudct7wqtvlihssnc2s2uqa76j4frgbot2inad.onion"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Syntex GreenTech",
+      "position": "Sustainability Consultant",
+      "location_type": "On site",
+      "location": "Perugia, Italy",
+      "url": "https://syntexgreen.tech",
+      "startDate": "2023-10-01",
+      "endDate": null,
+      "summary": "As a Sustainability Consultant at Syntex GreenTech, I focus on developing innovative ESG strategies, supporting financing decisions to mitigate financial risks, and conducting sustainability reporting. My role involves analyzing impacts, risks, and opportunities related to sustainability issues to drive effective environmental and social governance practices.",
+      "highlights": null,
+      "responsibilities": [
+        "Development of ESG strategy based on innovation.",
+        "Support ESG financing decisions and reduction of financial risk.",
+        "Sustainability reporting.",
+        "Analysis of impacts, risks and opportunities in relation to sustainability issues."
+      ],
+      "achievements": null,
+      "skills": [
+        "Sustainability reporting",
+        "ESG Strategy Development",
+        "Risk Assessment and Management"
+      ],
+      "code": "esg"
+    },
+    {
+      "name": "Free University of Bozen-Bolzano",
+      "position": "Research and Teaching assistant",
+      "location_type": "Hybrid",
+      "location": "Bozen, Italy",
+      "url": "https://unibz.it",
+      "startDate": "2022-11-01",
+      "endDate": null,
+      "summary": "As a Research and Teaching Assistant at the Free University of Bozen-Bolzano, I am involved in the FRONTSH1P project, which focuses on advancing systemic solutions for a circular and resilient future through local clusters and regional innovation schemes. Additionally, I assist in teaching the Energetics course for the B.Sc. in Industrial and Mechanical Engineering.",
+      "highlights": [
+        "FRONTSH1P project - A FRONTrunner approach for the transition to a circular and resilient future: deployment of systemic solutions with the support of local clusters and the development of regional community-based innovation schemes.",
+        "Teaching assistant for the course Energetics of the B.Sc. in Industrial and Mechanical Engineering."
+      ],
+      "responsibilities": [
+        "Development and implementation of experimental setups.",
+        "Design and execution of laboratory experiments, collection and analysis of data.",
+        "Contribution to the preparation of research papers, conference abstracts, grant proposals, and project reports.",
+        "Support in teaching activities by mentoring students, and giving exercise classes.",
+        "Contribution to the supervision of PhD students."
+      ],
+      "achievements": null,
+      "skills": [
+        "Circular Economy",
+        "Teaching and Academic Support",
+        "Data analysis",
+        "Lab activities",
+        "Python"
+      ],
+      "code": "esg"
+    },
+    {
+      "name": "Freelancer",
+      "position": "ISO 27001:2013/2022 Auditor trainee",
+      "location_type": "Hybrid",
+      "location": "Italy",
+      "startDate": "2021-08-01",
+      "endDate": null,
+      "highlights": null,
+      "responsibilities": [
+        "As an ISO 27001 Auditor Trainee, I have undergone lead auditor training in ISO/IEC 27001:2013 and ISO/IEC 27001:2022, focusing on Information Security Management. My role involves gaining practical experience and skills in auditing and assessing information security management systems."
+      ],
+      "skills": [
+        "Information Security Management Systems (ISMS)",
+        "Auditing and Compliance",
+        "Risk Assessment and Management",
+        "Cybersecurity",
+        "Privacy"
+      ],
+      "code": "it"
+    },
+    {
+      "name": "Aalborg University",
+      "position": "Visiting PhD Candidate",
+      "location_type": "On site",
+      "location": "Aalborg, Denmark",
+      "url": "https://www.en.aau.dk/",
+      "startDate": "2022-05-01",
+      "endDate": "2022-09-01",
+      "highlights":null,
+      "responsibilities": [
+        "Supercritical water upgrading of distillation residues of hydrotreated HTL-crude oil; HTL-crude oil upgrading."
+      ],
+      "skills": [
+        "Data science",
+        "Python",
+        "Lab activities",
+        "Lab and pilot-scale reactors"
+      ],
+      "code": "esg"
+    },
+    {
+      "name": "Free University of Bozen-Bolzano",
+      "position": "PhD Candidate",
+      "location_type": "On site",
+      "location": "Bozen, Italy",
+      "url": "https://unibz.it",
+      "startDate": "2019-10-01",
+      "endDate": "2022-10-01",
+      "highlights": [
+        "Thesis title: Valorisation of residues from parapharmaceutical and herbal medicin production: a case study.",
+        "Best Oral Flash Award for the presentation entitled 'Legitimation of Differential Scanning Calorimetry for the study of hydrothermal carbonization and liquefaction'."
+      ],
+      "responsibilities": [
+        "Development and implementation of experimental setups.",
+        "Design and execution of laboratory experiments, collection and analysis of data.",
+        "Contribution to the preparation of research papers, conference abstracts, grant proposals, and project reports."
+      ],
+      "skills": [
+        "Data science",
+        "Python",
+        "Lab activities",
+        "Lab and pilot-scale reactors",
+        "Circular economy",
+        "Thermochemical processes modelling"
+      ],
+      "code": "esg"
+    },
+    {
+      "name": "Freelancer",
+      "position": "Consultant",
+      "location_type": "On site",
+      "location": "Italy",
+      "startDate": "2018-10-01",
+      "endDate": "2019-10-01",
+      "highlights": null,
+      "responsibilities": [
+        "Dealer training for stock audit on assignment from a certifying organization for a leading heavy machinery manufacturer."
+      ],
+      "skills": ["Auditing and Compliance"],
+      "code": ""
+    },
+    {
+      "name": "Freelancer",
+      "position": "Consultant and Auditor",
+      "location_type": "Hybrid",
+      "location": "Italy",
+      "startDate": "2018-07-01",
+      "endDate": null,
+      "highlights": null,
+      "responsibilities": [
+        "ISO/IEC 27001 - Information Security Management internal audits for a consulting company."
+      ],
+      "skills": [
+        "Information Security Management Systems (ISMS)",
+        "Auditing and Compliance",
+        "Risk Assessment and Management",
+        "Cybersecurity",
+        "Privacy"
+      ],
+      "code": "it"
+    },
+    {
+      "name": "Freelancer",
+      "position": "Auditor",
+      "location_type": "On site",
+      "location": "Europe",
+      "startDate": "2017-04-01",
+      "endDate": "2019-10-01",
+      "highlights": null,
+      "responsibilities": [
+        "2nd party compound audit on assignment from a certifying organization for a leading automobile manufacturer.",
+        "Audits held in Italy and abroad (Austria, Germany, Finland, Poland, Portugal, Sweden)."
+      ],
+      "skills": ["Auditing and Compliance"],
+      "code": ""
+    },
+    {
+      "name": "Freelancer",
+      "position": "Consultant",
+      "location_type": "On site",
+      "location": "Perugia, Italy",
+      "startDate": "2016-10-01",
+      "endDate": "2019-10-01",
+      "highlights": null,
+      "responsibilities": [
+        "CE homologation processes of motorcycle helmets, goggles and gloves.",
+        "Management of relationships with suppliers, mainly not Italian (China and Pakistan)."
+      ],
+      "skills": [],
+      "code": ""
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Civil protection Terni",
+      "position": "Volunteer",
+      "url": null,
+      "startDate": "2010-01-01",
+      "endDate": "2013-01-01",
+      "summary": null,
+      "highlights": [
+        "Work carried out in an integrated manner with the components and operational structures of the National Service both in ordinary and emergency and regular participation in the exercise activities to ensure full synergy with all the players in the System.",
+        "Fire surveillance during the summer period."
+      ]
+    },
+    {
+      "organization": "Apav",
+      "position": "Volunteer",
+      "url": null,
+      "startDate": "2008-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Helped organize coding workshops and mentored new members.",
+      "highlights": [
+        "Support in carrying out study activities for dyslexic and dyscalculic children and teenagers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Free University of Bozen-Bolzano",
+      "url": "https://unibz.it",
+      "area": "Energy Engineering",
+      "studyType": "Master",
+      "startDate": "2017-09-01",
+      "endDate": "2019-10-01",
+      "score": null,
+      "courses": null,
+      "code": "b"
+    },
+    {
+      "institution": "FAU Erlangen-Nürnberg",
+      "url": "https://fau.de",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2015-09-01",
+      "endDate": "2016-03-01",
+      "score": null,
+      "courses": null,
+      "code": "b"
+    },
+    {
+      "institution": "University of Perugia",
+      "url": "https://unipg.it",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2013-09-01",
+      "endDate": "2017-04-01",
+      "score": null,
+      "courses": null,
+      "code": "b"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Specific course for ESG-SDGs Auditor/Lead Auditor and Consultant related to the ESG-SDGs Rating:2022©",
+      "date": "2023-10-01",
+      "issuer": "CERTIFICATION Srl",
+      "url": "Credential ID 031/2023",
+      "code": "esg"
+    },
+    {
+      "name": "ISO/IEC 27001:2022 Transition Course",
+      "date": "2023-08-01",
+      "issuer": "SGS",
+      "url": null,
+      "code": "it"
+    },
+    {
+      "name": "DeepLearning.AI TensorFlow Developer Specialization",
+      "date": "2023-03-01",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/D4TVSM4ELBZS",
+      "code": "it"
+    },
+    {
+      "name": "State examination for the qualification to practice as an Energy and Nuclear Engineer",
+      "date": "2020-07-01",
+      "issuer": "University of Trento",
+      "url": null,
+      "code": "esg"
+    },
+    {
+      "name": "ISO/IEC 27001:2013 - Information Security Management Systems Auditor/Lead Auditor Training Course",
+      "date": "2019-08-01",
+      "issuer": "SGS",
+      "url": null,
+      "code": "it"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"],
+      "code": "it"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ],
+      "code": "it"
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ],
+      "code": "it"
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate",
+      "keywords": ["Databases", "SQL", "Data Storage", "Backend"],
+      "code": "it"
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": ["Version Control", "Collaboration", "Source Code"],
+      "code": "it"
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermediate",
+      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"],
+      "code": "it"
+    },
+    {
+      "name": "Astro",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"],
+      "code": "it"
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"],
+      "code": "it"
+    },
+    {
+      "name": "Next.js",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ],
+      "code": "it"
+    },
+    {
+      "name": "Python",
+      "level": "Expert",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Data analysis",
+        "Data Science"
+      ],
+      "code": "it"
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": ["Server"],
+      "code": "it"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Continuous Hydrothermal Liquefaction of microalgae for biocrude oil production",
+      "doi": "",
+      "authors": "V. Benedetti, A. Cascioli, S. Fasoli, A. Aref, F. Patuzzi, M. Baratieri",
+      "abstract": "The Hydrothermal Liquefaction (HTL) process is investigated in a continuous set-up designed and built for the production of biocrude oil. After the detailed description of the setup, results obtained by processing microalgae (Chlorella vulgaris) are presented. All HTL phases (gaseous, solid, and liquid) were collected and subsequently analysed. The gaseous phase was mainly composed by CO2 (99 %), the solid phase by carbon (65 %), while the aqueous phase contained several nitrogenous compounds and a low carbon content (1 %). Compounds such as n-paraffins, iso-paraffins, n-olefins, iso-olefins, naphthene, phenols, cresol were found in the oil fraction, and a HHV oil of 32 MJ/kg was measured.",
+      "journal": "78th national congress ATI (2023)",
+      "date": "2023-10-01",
+      "code": "esg"
+    },
+    {
+      "title": "Fast screening of catalyst performances in hydrothermal processes for biofuel production using differential scanning calorimetry",
+      "doi": "https://doi.org/10.1016/j.biortech.2024.130934",
+      "authors": "V. Benedetti, A. Cascioli, M. Pecchi, M. Baratieri",
+      "abstract": "Catalysts are usually employed in hydrothermal processes for different purposes, such as enhancing quality and yield of produced biofuels. However, assessing catalyst performances can be time consuming and expensive. For this reason, in this work, a technique based on high pressure differential scanning calorimetry was applied to study heterogeneous catalyst behavior under hydrothermal conditions at the micro-scale. Heterogeneous catalysts were mixed with distilled water and cellulose, selected as substrate, and tested at 250 °C. The heat release profiles obtained were deconvoluted in three Gaussian peaks, each associated with a set of reactions. Siralox and iron chloride showed the highest catalytic activities impacting the development and the enthalpy of the reactions. Selected samples were further characterized to investigate synergies among acid and basic sites and emphasize the importance of the spatial distribution of the components inside the catalysts. This study highlights the crucial role of advanced techniques in optimizing catalyst performance for more efficient biofuel production.",
+      "journal": "Bioresource Technology",
+      "date": "2024-06-10",
+      "code": "esg"
+    },
+    {
+      "title": "Uncovering the transition between hydrothermal carbonization and liquefaction using differential scanning calorimetry",
+      "doi": "https://doi.org/10.1016/j.fuproc.2022.107349",
+      "authors": "M Pecchi, A Cascioli, AR Maag, JL Goldfarb, M Baratieri",
+      "abstract": "The in situ analysis of hydrothermal carbonization (HTC) and liquefaction (HTL) processes can be accomplished using high-pressure differential scanning calorimetry (DSC), a continuous, relatively inexpensive, and rapid technique for pressurized processes. A recently published DSC method is newly applied across conditions spanning both HTC and HTL to continuously assess the heat release profile of cellulose across the hydrothermal spectrum. The resulting DSC curves are deconvoluted and the peaks are assigned to reaction sets. HTC and HTL are both exothermic, with enthalpy changes of ~0.3–0.9 and ~0.9–1.2 kJ g−1 for HTC and HTL, respectively. A thermodynamic transition in overall process enthalpy occurs at the transition from HTC to HTL, which can be explained by the relative importance of hydrolysis, polymerization, and bulk carbonization reactions within the two processing regimes. This novel DSC technique could reduce cost and time in the initial evaluation of potential HTC and HTL feedstocks, which may hasten the commercialization of these thermochemical processes.",
+      "journal": "Fuel Processing Technology",
+      "date": "2022-06-02",
+      "code": "esg"
+    },
+    {
+      "title": "Enhanced thermodynamic modelling for hydrothermal liquefaction",
+      "doi": "https://doi.org/10.1016/j.fuel.2021.120796",
+      "authors": "A Cascioli, M Baratieri",
+      "abstract": "Hydrothermal liquefaction is a promising technology to produce drop-in biofuels from wet biomasses. In this paper a thermodynamic analysis, including chemical equilibrium and gas–liquid equilibrium in high-pressure conditions was conducted. The chemical equilibrium model is based on the minimization of the Gibbs free energy, while the high-pressure gas–liquid equilibrium model is implemented by using the modified universal functional activity coefficient (UNIFAC) model and the Soave-Redlich-Kwong (SRK) equation of state. The Gibbs free energy minimization is performed through the minimization algorithm based on Sequential Least SQuares Programming (SLSQP) available in the Python environment. The research aims at providing an engineering predictive tool to support the design of biomass hydrothermal liquefaction and optimize its operation.",
+      "journal": "Fuel",
+      "date": "2021-04-30",
+      "code": "b"
+    }
+  ],
+  "presentations": [
+    {
+      "conference": "WasteEng22 - The 9th International Conference on Engineering for Waste and Biomass Valorisation",
+      "location": "Copenhagen, Denmark",
+      "startDate": "2022-06-27",
+      "endDate": "2022-06-30",
+      "title": "Legitimation of differential scanning calorimetry for the study of hydrothermal carbonization and liquefaction.",
+      "type": "Oral",
+      "award": "Best Oral Flash Award",
+      "code": "esg"
+    },
+    {
+      "conference": "EUBCE 2022 - 30th European Biomass Conference and Exhibition",
+      "location": "Online",
+      "startDate": "2022-05-09",
+      "endDate": "2022-05-12",
+      "title": "A Newly Designed Pilot-Scale Continuous Reactor for Hydrothermal Liquefaction: Preliminary Results and Validation of an Enhanced Thermodynamic Model.",
+      "type": "Oral",
+      "code": "b"
+    },
+    {
+      "conference": "WasteEng21 - The 8th International Conference on Engineering for Waste and Biomass Valorisation",
+      "location": "Online",
+      "startDate": "2021-05-31",
+      "endDate": "2021-06-04",
+      "title": "Valorisation of lignocellulosics residues from herbal medicine production.",
+      "type": "Oral",
+      "code": "esg"
+    },
+    {
+      "conference": "EUBCE 2021 - 29th European Biomass Conference and Exhibition",
+      "location": "Online",
+      "startDate": "2021-04-26",
+      "endDate": "2021-04-29",
+      "title": "Hydrothermal carbonization of lignocellulosic biomass from para-pharmaceutical and herbal medicine production.",
+      "type": "Oral",
+      "code": "esg"
+    },
+    {
+      "conference": "EUBCE 2020 - 28th European Biomass Conference and Exhibition",
+      "location": "Online",
+      "startDate": "2020-07-06",
+      "endDate": "2020-07-09",
+      "title": "Exploitation of lignocellulosic biomass from para-pharmaceutical and herbal medicine production.",
+      "type": "Poster",
+      "code": "esg"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker",
+      "value": 10
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient (C1)",
+      "value": 8
+    },
+    {
+      "language": "German",
+      "fluency": "Independent (B2)",
+      "value": 7
+    }
+  ],
+  "projects": [
+    {
+      "name": "Company Website",
+      "isActive": true,
+      "description": "A professional company website to show the mindest and the available services.",
+      "highlights": ["Built with Astro and Tailwind CSS", "Includes a blog"],
+      "url": "https://syntexgreen.tech",
+      "github": null,
+      "code": "it"
+    },
+    {
+      "name": "ESG tool",
+      "isActive": true,
+      "description": "A web app to streamline the collection of documents and data required for the sustainability declaration following the GRI and EFRAG frameworks.",
+      "highlights": [
+        "Built with NextJS and Tailwind CSS using Clerk for authentication and Superbase as backend service.",
+        "Includes python scripts to automate the generation of a word working document."
+      ],
+      "url": "https://tool.syntexgreen.tech",
+      "github": null,
+      "code": "it"
+    },
+    {
+      "name": "FRONTSH1P",
+      "isActive": true,
+      "description": "FRONTSH1P project - A FRONTrunner approach for the transition to a circular and resilient future: deployment of systemic solutions with the support of local clusters and the development of regional community-based innovation schemes.",
+      "highlights": [
+        "Development and implementation of experimental setups.",
+        "Design and execution of laboratory experiments, collection and analysis of data.",
+        "Contribution to the preparation of research papers, conference abstracts, grant proposals, and project reports."
+      ],
+      "url": "https://frontsh1p.eu/",
+      "code": "esg"
+    }
+  ]
+}

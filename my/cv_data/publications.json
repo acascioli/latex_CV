@@ -1,0 +1,40 @@
+{
+  "publications": [
+    {
+      "title": "Continuous Hydrothermal Liquefaction of microalgae for biocrude oil production",
+      "doi": "",
+      "authors": "V. Benedetti, A. Cascioli, S. Fasoli, A. Aref, F. Patuzzi, M. Baratieri",
+      "abstract": "The Hydrothermal Liquefaction (HTL) process is investigated in a continuous set-up designed and built for the production of biocrude oil. After the detailed description of the setup, results obtained by processing microalgae (Chlorella vulgaris) are presented. All HTL phases (gaseous, solid, and liquid) were collected and subsequently analysed. The gaseous phase was mainly composed by CO2 (99 %), the solid phase by carbon (65 %), while the aqueous phase contained several nitrogenous compounds and a low carbon content (1 %). Compounds such as n-paraffins, iso-paraffins, n-olefins, iso-olefins, naphthene, phenols, cresol were found in the oil fraction, and a HHV oil of 32 MJ/kg was measured.",
+      "journal": "78th national congress ATI (2023)",
+      "date": "2023-10-01",
+      "code": "esg"
+    },
+    {
+      "title": "Fast screening of catalyst performances in hydrothermal processes for biofuel production using differential scanning calorimetry",
+      "doi": "https://doi.org/10.1016/j.biortech.2024.130934",
+      "authors": "V. Benedetti, A. Cascioli, M. Pecchi, M. Baratieri",
+      "abstract": "Catalysts are usually employed in hydrothermal processes for different purposes, such as enhancing quality and yield of produced biofuels. However, assessing catalyst performances can be time consuming and expensive. For this reason, in this work, a technique based on high pressure differential scanning calorimetry was applied to study heterogeneous catalyst behavior under hydrothermal conditions at the micro-scale. Heterogeneous catalysts were mixed with distilled water and cellulose, selected as substrate, and tested at 250 °C. The heat release profiles obtained were deconvoluted in three Gaussian peaks, each associated with a set of reactions. Siralox and iron chloride showed the highest catalytic activities impacting the development and the enthalpy of the reactions. Selected samples were further characterized to investigate synergies among acid and basic sites and emphasize the importance of the spatial distribution of the components inside the catalysts. This study highlights the crucial role of advanced techniques in optimizing catalyst performance for more efficient biofuel production.",
+      "journal": "Bioresource Technology",
+      "date": "2024-06-10",
+      "code": "esg"
+    },
+    {
+      "title": "Uncovering the transition between hydrothermal carbonization and liquefaction using differential scanning calorimetry",
+      "doi": "https://doi.org/10.1016/j.fuproc.2022.107349",
+      "authors": "M Pecchi, A Cascioli, AR Maag, JL Goldfarb, M Baratieri",
+      "abstract": "The in situ analysis of hydrothermal carbonization (HTC) and liquefaction (HTL) processes can be accomplished using high-pressure differential scanning calorimetry (DSC), a continuous, relatively inexpensive, and rapid technique for pressurized processes. A recently published DSC method is newly applied across conditions spanning both HTC and HTL to continuously assess the heat release profile of cellulose across the hydrothermal spectrum. The resulting DSC curves are deconvoluted and the peaks are assigned to reaction sets. HTC and HTL are both exothermic, with enthalpy changes of ~0.3–0.9 and ~0.9–1.2 kJ g−1 for HTC and HTL, respectively. A thermodynamic transition in overall process enthalpy occurs at the transition from HTC to HTL, which can be explained by the relative importance of hydrolysis, polymerization, and bulk carbonization reactions within the two processing regimes. This novel DSC technique could reduce cost and time in the initial evaluation of potential HTC and HTL feedstocks, which may hasten the commercialization of these thermochemical processes.",
+      "journal": "Fuel Processing Technology",
+      "date": "2022-06-02",
+      "code": "esg"
+    },
+    {
+      "title": "Enhanced thermodynamic modelling for hydrothermal liquefaction",
+      "doi": "https://doi.org/10.1016/j.fuel.2021.120796",
+      "authors": "A Cascioli, M Baratieri",
+      "abstract": "Hydrothermal liquefaction is a promising technology to produce drop-in biofuels from wet biomasses. In this paper a thermodynamic analysis, including chemical equilibrium and gas–liquid equilibrium in high-pressure conditions was conducted. The chemical equilibrium model is based on the minimization of the Gibbs free energy, while the high-pressure gas–liquid equilibrium model is implemented by using the modified universal functional activity coefficient (UNIFAC) model and the Soave-Redlich-Kwong (SRK) equation of state. The Gibbs free energy minimization is performed through the minimization algorithm based on Sequential Least SQuares Programming (SLSQP) available in the Python environment. The research aims at providing an engineering predictive tool to support the design of biomass hydrothermal liquefaction and optimize its operation.",
+      "journal": "Fuel",
+      "date": "2021-04-30",
+      "code": "b"
+    }
+  ]
+}
