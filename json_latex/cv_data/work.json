@@ -1,0 +1,194 @@
+{
+  "work": [
+    {
+      "name": "Syntex GreenTech",
+      "position": "Sustainability Consultant",
+      "location_type": "On site",
+      "location": "Perugia, Italy",
+      "url": "https://syntexgreen.tech",
+      "startDate": "2023-10-01",
+      "endDate": null,
+      "summary": "As a Sustainability Consultant at Syntex GreenTech, I focus on developing innovative ESG strategies, supporting financing decisions to mitigate financial risks, and conducting sustainability reporting. My role involves analyzing impacts, risks, and opportunities related to sustainability issues to drive effective environmental and social governance practices.",
+      "highlights": null,
+      "responsibilities": [
+        "Development of ESG strategy based on innovation.",
+        "Support ESG financing decisions and reduction of financial risk.",
+        "Sustainability reporting.",
+        "Analysis of impacts, risks and opportunities in relation to sustainability issues."
+      ],
+      "achievements": null,
+      "skills": [
+        "Sustainability reporting",
+        "ESG Strategy Development",
+        "Risk Assessment and Management"
+      ],
+      "code": "esg"
+    },
+    {
+      "name": "Free University of Bozen-Bolzano",
+      "position": "Research and Teaching assistant",
+      "location_type": "Hybrid",
+      "location": "Bozen, Italy",
+      "url": "https://unibz.it",
+      "startDate": "2022-11-01",
+      "endDate": null,
+      "summary": "As a Research and Teaching Assistant at the Free University of Bozen-Bolzano, I am involved in the FRONTSH1P project, which focuses on advancing systemic solutions for a circular and resilient future through local clusters and regional innovation schemes. Additionally, I assist in teaching the Energetics course for the B.Sc. in Industrial and Mechanical Engineering.",
+      "highlights": [
+        "FRONTSH1P project - A FRONTrunner approach for the transition to a circular and resilient future: deployment of systemic solutions with the support of local clusters and the development of regional community-based innovation schemes.",
+        "Teaching assistant for the course Energetics of the B.Sc. in Industrial and Mechanical Engineering."
+      ],
+      "responsibilities": [
+        "Development and implementation of experimental setups.",
+        "Design and execution of laboratory experiments, collection and analysis of data.",
+        "Contribution to the preparation of research papers, conference abstracts, grant proposals, and project reports.",
+        "Support in teaching activities by mentoring students, and giving exercise classes.",
+        "Contribution to the supervision of PhD students."
+      ],
+      "achievements": null,
+      "skills": [
+        "Circular Economy",
+        "Teaching and Academic Support",
+        "Data analysis",
+        "Lab activities",
+        "Python"
+      ],
+      "code": "esg"
+    },
+    {
+      "name": "Freelancer",
+      "position": "ISO 27001:2013/2022 Auditor trainee",
+      "location_type": "Hybrid",
+      "location": "Italy",
+      "url": null,
+      "startDate": "2021-08-01",
+      "endDate": null,
+      "highlights": null,
+      "responsibilities": [
+        "As an ISO 27001 Auditor Trainee, I have undergone lead auditor training in ISO/IEC 27001:2013 and ISO/IEC 27001:2022, focusing on Information Security Management. My role involves gaining practical experience and skills in auditing and assessing information security management systems."
+      ],
+      "skills": [
+        "Information Security Management Systems (ISMS)",
+        "Auditing and Compliance",
+        "Risk Assessment and Management",
+        "Cybersecurity",
+        "Privacy"
+      ],
+      "code": "it"
+    },
+    {
+      "name": "Aalborg University",
+      "position": "Visiting PhD Candidate",
+      "location_type": "On site",
+      "location": "Aalborg, Denmark",
+      "url": "https://www.en.aau.dk/",
+      "startDate": "2022-05-01",
+      "endDate": "2022-09-01",
+      "highlights": null,
+      "responsibilities": [
+        "Supercritical water upgrading of distillation residues of hydrotreated HTL-crude oil; HTL-crude oil upgrading."
+      ],
+      "skills": [
+        "Data science",
+        "Python",
+        "Lab activities",
+        "Lab and pilot-scale reactors"
+      ],
+      "code": "esg"
+    },
+    {
+      "name": "Free University of Bozen-Bolzano",
+      "position": "PhD Candidate",
+      "location_type": "On site",
+      "location": "Bozen, Italy",
+      "url": "https://unibz.it",
+      "startDate": "2019-10-01",
+      "endDate": "2022-10-01",
+      "highlights": [
+        "Thesis title: Valorisation of residues from parapharmaceutical and herbal medicin production: a case study.",
+        "Best Oral Flash Award for the presentation entitled 'Legitimation of Differential Scanning Calorimetry for the study of hydrothermal carbonization and liquefaction'."
+      ],
+      "responsibilities": [
+        "Development and implementation of experimental setups.",
+        "Design and execution of laboratory experiments, collection and analysis of data.",
+        "Contribution to the preparation of research papers, conference abstracts, grant proposals, and project reports."
+      ],
+      "skills": [
+        "Data science",
+        "Python",
+        "Lab activities",
+        "Lab and pilot-scale reactors",
+        "Circular economy",
+        "Thermochemical processes modelling"
+      ],
+      "code": "esg"
+    },
+    {
+      "name": "Freelancer",
+      "position": "Consultant",
+      "location_type": "On site",
+      "location": "Italy",
+      "url": null,
+      "startDate": "2018-10-01",
+      "endDate": "2019-10-01",
+      "highlights": null,
+      "responsibilities": [
+        "Dealer training for stock audit on assignment from a certifying organization for a leading heavy machinery manufacturer."
+      ],
+      "skills": ["Auditing and Compliance"],
+      "code": ""
+    },
+    {
+      "name": "Freelancer",
+      "position": "Consultant and Auditor",
+      "location_type": "Hybrid",
+      "location": "Italy",
+      "url": null,
+      "startDate": "2018-07-01",
+      "endDate": null,
+      "highlights": null,
+      "responsibilities": [
+        "ISO/IEC 27001 - Information Security Management internal audits for a consulting company."
+      ],
+      "skills": [
+        "Information Security Management Systems (ISMS)",
+        "Auditing and Compliance",
+        "Risk Assessment and Management",
+        "Cybersecurity",
+        "Privacy"
+      ],
+      "code": "it"
+    },
+    {
+      "name": "Freelancer",
+      "position": "Auditor",
+      "location_type": "On site",
+      "location": "Europe",
+      "url": null,
+      "startDate": "2017-04-01",
+      "endDate": "2019-10-01",
+      "highlights": null,
+      "responsibilities": [
+        "2nd party compound audit on assignment from a certifying organization for a leading automobile manufacturer.",
+        "Audits held in Italy and abroad (Austria, Germany, Finland, Poland, Portugal, Sweden)."
+      ],
+      "skills": ["Auditing and Compliance"],
+      "code": ""
+    },
+    {
+      "name": "Freelancer",
+      "position": "Consultant",
+      "location_type": "On site",
+      "location": "Perugia, Italy",
+      "url": null,
+      "startDate": "2016-10-01",
+      "endDate": "2019-10-01",
+      "highlights": null,
+      "responsibilities": [
+        "CE homologation processes of motorcycle helmets, goggles and gloves.",
+        "Management of relationships with suppliers, mainly not Italian (China and Pakistan)."
+      ],
+      "skills": [],
+      "code": ""
+    }
+  ]
+}

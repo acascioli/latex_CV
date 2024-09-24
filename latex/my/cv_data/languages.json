@@ -1,0 +1,19 @@
+{
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker",
+      "value": 10
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient (C1)",
+      "value": 8
+    },
+    {
+      "language": "German",
+      "fluency": "Independent (B2)",
+      "value": 7
+    }
+  ]
+}

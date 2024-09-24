@@ -1,0 +1,63 @@
+{
+  "skills": [
+    {
+      "Programming": [
+        "SQL",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "C",
+        "Bash",
+        "Dart",
+        "LaTeX",
+        "Matlab"
+      ]
+    },
+    {
+      "Scientific computing": ["NumPy", "SciPy", "Sympy", "Pandas", "LMFIT"]
+    },
+    {
+      "Machine learning": [
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "Scikit‑learn",
+        "XGBoost"
+      ]
+    },
+    {
+      "Data visualization": [
+        "Tableau",
+        "Matplotlib",
+        "Seaborn",
+        "Plotly",
+        "Altair",
+        "Sigmaplot"
+      ]
+    },
+    {
+      "Dashboards and app development": [
+        "Streamlit",
+        "Dash",
+        "Django",
+        "Flask",
+        "React",
+        "React Native",
+        "NextJS",
+        "AstroJS",
+        "Flutter",
+        "PySide",
+        "TKinter"
+      ]
+    },
+    {
+      "Database management": [
+        "PostgreSQL",
+        "MySQL",
+        "SQLite",
+        "MongoDB",
+        "SuperbaseDB"
+      ]
+    }
+  ]
+}
