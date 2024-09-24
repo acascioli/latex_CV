@@ -6,6 +6,10 @@ from templates.personal_information import P_I
 from templates.summary import summary
 from templates.work import work
 from templates.skills import skills
+from templates.certificates import certificates
+from templates.education import education
+from templates.publications import publications
+from templates.languages import languages
 
 base_path = plib.Path(__file__).parents[0]
 templates_path = plib.Path(base_path, "templates")
@@ -17,6 +21,10 @@ P_I(resume_path, data_path)
 summary(resume_path, data_path)
 work(resume_path, data_path)
 skills(resume_path, data_path)
+certificates(resume_path, data_path)
+education(resume_path, data_path)
+publications(resume_path, data_path)
+languages(resume_path, data_path)
 
 # Save the rendered templates to a final LaTeX file
 # with open("output_cv.tex", "w") as f:
@@ -27,7 +35,7 @@ skills(resume_path, data_path)
 def run_pdflatex(tex_file):
     try:
         # Execute the pdflatex command
-        subprocess.run(["xelatex", "resume.tex"], check=True)
+        subprocess.run(["xelatex", plib.Path(base_path, "resume.tex")], check=True)
         print(f"Successfully compiled {tex_file} to PDF.")
     except subprocess.CalledProcessError as e:
         print(f"Error: pdflatex failed with error code {e.returncode}", file=sys.stderr)

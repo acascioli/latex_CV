@@ -3,35 +3,53 @@
     {
       "institution": "Free University of Bozen-Bolzano",
       "url": "https://unibz.it",
-      "area": "Energy Engineering",
+      "area": "PhD in Sustainable Energy and Technology",
+      "studyType": "PhD",
+      "location": "Bozen, Italy",
+      "startDate": "2019-10-01",
+      "endDate": "2022-10-31",
+      "score": null,
+      "courses": null,
+      "code": "b",
+      "responsibilities": [
+        "Thesis: Hydrothermal liquefaction of biomass and biocrude upgrading: fundamentals, experimental analysis and modelling.",
+        "Spent 5 months as a visiting PhD in the Advanced Biofuels Lab of Aalborg University, Denmark.",
+        "Developed and commissioned a pilot plant for the production of biocrude oil to be upgraded to SAF (Sustainable Aviation Fuels).",
+        "Process modelling through optimization algorithms to find thermodynamic equilibrium.",
+        "Performed techno‑economic analysis to optimize process conditions and reduce costs.",
+        "Support in the supervision of master students.",
+        "Preparation of technical reports, visualizations, and presentations."
+      ]
+    },
+    {
+      "institution": "Free University of Bozen-Bolzano",
+      "url": "https://unibz.it",
+      "area": "M.Sc. in Energy Engineering",
       "studyType": "Master",
+      "location": "Bozen, Italy",
       "startDate": "2017-09-01",
       "endDate": "2019-10-01",
       "score": null,
       "courses": null,
-      "code": "b"
-    },
-    {
-      "institution": "FAU Erlangen-Nürnberg",
-      "url": "https://fau.de",
-      "area": "Mechanical Engineering",
-      "studyType": "Bachelor",
-      "startDate": "2015-09-01",
-      "endDate": "2016-03-01",
-      "score": null,
-      "courses": null,
-      "code": "b"
+      "code": "b",
+      "responsibilities": [
+        "Thesis: Valorization of residues from parapharmaceutical and herbal medicine production: a case study."
+      ]
     },
     {
       "institution": "University of Perugia",
       "url": "https://unipg.it",
-      "area": "Mechanical Engineering",
+      "area": "B.E. in Mechanical Engineering",
+      "location": "Perugia, Italy",
       "studyType": "Bachelor",
       "startDate": "2013-09-01",
       "endDate": "2017-04-01",
       "score": null,
       "courses": null,
-      "code": "b"
+      "code": "b",
+      "responsibilities": [
+        "Erasmus + of 6 months at the FAU Erlangen‑Nürnberg, Germany."
+      ]
     }
   ]
 }

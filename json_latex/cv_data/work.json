@@ -11,10 +11,10 @@
       "summary": "As a Sustainability Consultant at Syntex GreenTech, I focus on developing innovative ESG strategies, supporting financing decisions to mitigate financial risks, and conducting sustainability reporting. My role involves analyzing impacts, risks, and opportunities related to sustainability issues to drive effective environmental and social governance practices.",
       "highlights": null,
       "responsibilities": [
-        "Development of ESG strategy based on innovation.",
-        "Support ESG financing decisions and reduction of financial risk.",
-        "Sustainability reporting.",
-        "Analysis of impacts, risks and opportunities in relation to sustainability issues."
+        "Developed an innovative ESG strategy, driving sustainability while reducing financial risks through data‑backed decision‑making.",
+        "Conducted comprehensive sustainability impact assessments, identifying key risks and opportunities for business growth.",
+        "Developed Sustainability reports following both the GRI and EFRAG frameworks.",
+        "Developed autonomously a platform to speed up the collection of information and monitoring of KPIs."
       ],
       "achievements": null,
       "skills": [
@@ -26,7 +26,7 @@
     },
     {
       "name": "Free University of Bozen-Bolzano",
-      "position": "Research and Teaching assistant",
+      "position": "Postdoctoral Research and Teaching assistant",
       "location_type": "Hybrid",
       "location": "Bozen, Italy",
       "url": "https://unibz.it",
@@ -38,11 +38,13 @@
         "Teaching assistant for the course Energetics of the B.Sc. in Industrial and Mechanical Engineering."
       ],
       "responsibilities": [
-        "Development and implementation of experimental setups.",
-        "Design and execution of laboratory experiments, collection and analysis of data.",
-        "Contribution to the preparation of research papers, conference abstracts, grant proposals, and project reports.",
-        "Support in teaching activities by mentoring students, and giving exercise classes.",
-        "Contribution to the supervision of PhD students."
+        "FRONTSH1P project - A FRONTrunner approach for the transition to a circular and resilient future: deployment of systemic solutions with the support of local clusters and the development of regional community-based innovation schemes.",
+        "Performed techno‑economic analysis to optimize process conditions and reduce costs.",
+        "Developed simulations and models to foster the understanding of thermochemical processes.",
+        "Applied data analysis techniques to experimental datasets, such as peak de‑convolution and curve fittings.",
+        "Developed a machine learning model to predict the biocrude oil yield.",
+        "Teaching assistant for the course Energetics of the B.Sc. in Industrial and Mechanical Engineering, and M.Sc. in Energy Engineering.",
+        "Support in the supervision of PhD and Master students."
       ],
       "achievements": null,
       "skills": [
@@ -55,16 +57,17 @@
       "code": "esg"
     },
     {
-      "name": "Freelancer",
+      "name": "SGS",
       "position": "ISO 27001:2013/2022 Auditor trainee",
       "location_type": "Hybrid",
       "location": "Italy",
-      "url": null,
+      "url": "https://sgs.com",
       "startDate": "2021-08-01",
       "endDate": null,
       "highlights": null,
       "responsibilities": [
-        "As an ISO 27001 Auditor Trainee, I have undergone lead auditor training in ISO/IEC 27001:2013 and ISO/IEC 27001:2022, focusing on Information Security Management. My role involves gaining practical experience and skills in auditing and assessing information security management systems."
+        "ISO/IEC 27001:2013 ‑ Information Security Management lead auditor training.",
+        "ISO/IEC 27001:2022 ‑ Information security, cybersecurity and privacy protection."
       ],
       "skills": [
         "Information Security Management Systems (ISMS)",
@@ -76,73 +79,27 @@
       "code": "it"
     },
     {
-      "name": "Aalborg University",
-      "position": "Visiting PhD Candidate",
-      "location_type": "On site",
-      "location": "Aalborg, Denmark",
-      "url": "https://www.en.aau.dk/",
-      "startDate": "2022-05-01",
-      "endDate": "2022-09-01",
-      "highlights": null,
-      "responsibilities": [
-        "Supercritical water upgrading of distillation residues of hydrotreated HTL-crude oil; HTL-crude oil upgrading."
-      ],
-      "skills": [
-        "Data science",
-        "Python",
-        "Lab activities",
-        "Lab and pilot-scale reactors"
-      ],
-      "code": "esg"
-    },
-    {
-      "name": "Free University of Bozen-Bolzano",
-      "position": "PhD Candidate",
-      "location_type": "On site",
-      "location": "Bozen, Italy",
-      "url": "https://unibz.it",
-      "startDate": "2019-10-01",
-      "endDate": "2022-10-01",
-      "highlights": [
-        "Thesis title: Valorisation of residues from parapharmaceutical and herbal medicin production: a case study.",
-        "Best Oral Flash Award for the presentation entitled 'Legitimation of Differential Scanning Calorimetry for the study of hydrothermal carbonization and liquefaction'."
-      ],
-      "responsibilities": [
-        "Development and implementation of experimental setups.",
-        "Design and execution of laboratory experiments, collection and analysis of data.",
-        "Contribution to the preparation of research papers, conference abstracts, grant proposals, and project reports."
-      ],
-      "skills": [
-        "Data science",
-        "Python",
-        "Lab activities",
-        "Lab and pilot-scale reactors",
-        "Circular economy",
-        "Thermochemical processes modelling"
-      ],
-      "code": "esg"
-    },
-    {
-      "name": "Freelancer",
+      "name": "SGS",
       "position": "Consultant",
       "location_type": "On site",
       "location": "Italy",
-      "url": null,
+      "url": "https://sgs.com",
       "startDate": "2018-10-01",
       "endDate": "2019-10-01",
       "highlights": null,
       "responsibilities": [
-        "Dealer training for stock audit on assignment from a certifying organization for a leading heavy machinery manufacturer."
+        "Dealer training for stock audit on assignment from a certifying organization for a leading heavy machinery manufacturer.",
+        "Audits held in Italy."
       ],
       "skills": ["Auditing and Compliance"],
       "code": ""
     },
     {
-      "name": "Freelancer",
+      "name": "Qualitas S.r.l.",
       "position": "Consultant and Auditor",
       "location_type": "Hybrid",
-      "location": "Italy",
-      "url": null,
+      "location": "Perugia, Italy",
+      "url": "https://www.qualitas.eu",
       "startDate": "2018-07-01",
       "endDate": null,
       "highlights": null,
@@ -159,11 +116,11 @@
       "code": "it"
     },
     {
-      "name": "Freelancer",
+      "name": "SGS",
       "position": "Auditor",
       "location_type": "On site",
       "location": "Europe",
-      "url": null,
+      "url": "https://sgs.com",
       "startDate": "2017-04-01",
       "endDate": "2019-10-01",
       "highlights": null,
@@ -175,11 +132,11 @@
       "code": ""
     },
     {
-      "name": "Freelancer",
+      "name": "Baruffaldi S.r.l.",
       "position": "Consultant",
       "location_type": "On site",
       "location": "Perugia, Italy",
-      "url": null,
+      "url": "https://www.baruffaldi.net/",
       "startDate": "2016-10-01",
       "endDate": "2019-10-01",
       "highlights": null,

@@ -2,17 +2,17 @@
   "languages": [
     {
       "language": "Italian",
-      "fluency": "Native speaker",
+      "fluency": "Native or bilingual proficiency, C2",
       "value": 10
     },
     {
       "language": "English",
-      "fluency": "Proficient (C1)",
+      "fluency": "Professional working proficiency, C1",
       "value": 8
     },
     {
       "language": "German",
-      "fluency": "Independent (B2)",
+      "fluency": "Independent user, B2",
       "value": 7
     }
   ]

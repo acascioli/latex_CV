@@ -30,7 +30,7 @@ def P_I(resume_path, data_path):
             nation=data["basics"]["location"]["nation"],
         ),
         "\mobile{{{mobile}}}".format(mobile=data["basics"]["phone"]),
-        "\mobile{{{email}}}".format(email=data["basics"]["email"]),
+        "\email{{{email}}}".format(email=data["basics"]["email"]),
         "\googlescholar{{{googlescholar}}}{{}}".format(
             googlescholar=data["profiles"][1]["id"]
         ),
