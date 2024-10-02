@@ -24,3 +24,11 @@
 __pycache__
 __pycache__/
 **/__pycache__
+
+
+# Ignore resume files with any suffix after "resume"
+resume*.tex
+resume*.pdf
+
+# Ignore cv_data directories with any suffix after "cv_data"
+cv_data*/
