@@ -9,11 +9,12 @@ from templates.skills import skills
 from templates.certificates import certificates
 from templates.education import education
 from templates.publications import publications
+from templates.presentations import presentations
 from templates.languages import languages
 import shutil
 
 variant = None
-variant = "Bosch"
+# variant = "Bosch"
 
 base_path = plib.Path(__file__).parents[0]
 templates_path = plib.Path(base_path, "templates")
@@ -37,6 +38,7 @@ skills(resume_path, data_path)
 certificates(resume_path, data_path)
 education(resume_path, data_path)
 publications(resume_path, data_path)
+presentations(resume_path, data_path)
 languages(resume_path, data_path)
 
 # Save the rendered templates to a final LaTeX file

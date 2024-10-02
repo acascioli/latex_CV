@@ -14,7 +14,8 @@
         "Developed an innovative ESG strategy, driving sustainability while reducing financial risks through data‑backed decision‑making.",
         "Conducted comprehensive sustainability impact assessments, identifying key risks and opportunities for business growth.",
         "Developed Sustainability reports following both the GRI and EFRAG frameworks.",
-        "Developed autonomously a platform to speed up the collection of information and monitoring of KPIs."
+        "Developed autonomously a platform to speed up the collection of information and monitoring of KPIs.",
+        "Clients in the following sectors: footwear, pharmaceutical, logistics, transportation, clothing, energy, food trade."
       ],
       "achievements": null,
       "skills": [
@@ -25,6 +26,23 @@
       "code": "esg"
     },
     {
+      "name": "I.T.S. Umbria Academy",
+      "position": "Lecturer",
+      "location_type": "On site",
+      "location": "Perugia, Italy",
+      "url": "https://www.itsumbria.it/",
+      "startDate": "2023-10-01",
+      "endDate": null,
+      "summary": "",
+      "highlights": null,
+      "responsibilities": [
+        "Lecturer for the training unit “Project Management” for no. 18 hours in the course “Energy Efficiency”"
+      ],
+      "achievements": null,
+      "skills": [],
+      "code": "esg"
+    },
+    {
       "name": "Free University of Bozen-Bolzano",
       "position": "Postdoctoral Research and Teaching assistant",
       "location_type": "Hybrid",
@@ -32,18 +50,17 @@
       "url": "https://unibz.it",
       "startDate": "2022-11-01",
       "endDate": null,
-      "summary": "As a Research and Teaching Assistant at the Free University of Bozen-Bolzano, I am involved in the FRONTSH1P project, which focuses on advancing systemic solutions for a circular and resilient future through local clusters and regional innovation schemes. Additionally, I assist in teaching the Energetics course for the B.Sc. in Industrial and Mechanical Engineering.",
-      "highlights": [
-        "FRONTSH1P project - A FRONTrunner approach for the transition to a circular and resilient future: deployment of systemic solutions with the support of local clusters and the development of regional community-based innovation schemes.",
-        "Teaching assistant for the course Energetics of the B.Sc. in Industrial and Mechanical Engineering."
-      ],
+      "summary": null,
+      "highlights": [],
       "responsibilities": [
+        "RFD project - Recovery of strategic materials from sewage sludge (acronym RFD).",
         "FRONTSH1P project - A FRONTrunner approach for the transition to a circular and resilient future: deployment of systemic solutions with the support of local clusters and the development of regional community-based innovation schemes.",
         "Performed techno‑economic analysis to optimize process conditions and reduce costs.",
         "Developed simulations and models to foster the understanding of thermochemical processes.",
         "Applied data analysis techniques to experimental datasets, such as peak de‑convolution and curve fittings.",
         "Developed a machine learning model to predict the biocrude oil yield.",
-        "Teaching assistant for the course Energetics of the B.Sc. in Industrial and Mechanical Engineering, and M.Sc. in Energy Engineering.",
+        "Teaching assistant for the course ”Energetics” of the B.Sc. in Industrial and Mechanical Engineering.",
+        "Teaching assistant for the course ”Power Production, CHP and District Heating Systems” of the M.Sc. in Energy Engineering.",
         "Support in the supervision of PhD and Master students."
       ],
       "achievements": null,

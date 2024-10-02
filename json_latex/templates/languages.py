@@ -7,7 +7,7 @@ def languages(resume_path, data_path):
     with open(plib.Path(data_path, "languages.json")) as f:
         data = json.load(f)
     tex_1 = [
-        "\cvsection{Skills}\n",
+        "\cvsection{Languages}\n",
         "\\begin{cvskills}\n",
     ]
     tex_2 = []
