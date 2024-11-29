@@ -16,6 +16,7 @@ from templates.publications import publications
 from templates.skills import skills
 from templates.summary import summary
 from templates.work import work
+from templates.honors import honors
 
 load_dotenv()
 
@@ -68,6 +69,7 @@ if isinstance(data_path, list):
         publications(resume_path, d, variant)
         presentations(resume_path, d, variant)
         languages(resume_path, d, variant)
+        honors(resume_path, d, variant)
         file_path_new = plib.Path(base_path, "resume_" + variant + ".tex")
         # Check if the file already exists
         if not file_path_new.exists():
@@ -88,6 +90,7 @@ else:
     publications(resume_path, data_path)
     presentations(resume_path, data_path)
     languages(resume_path, data_path)
+    honors(resume_path, d, variant)
 
     # Save the rendered templates to a final LaTeX file
     # with open("output_cv.tex", "w") as f:
