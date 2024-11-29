@@ -2,7 +2,7 @@ import json
 import pathlib as plib
 
 
-def P_I(resume_path, data_path):
+def P_I(resume_path, data_path, lan="en"):
     # Load JSON data from your file
     with open(plib.Path(data_path, "general.json")) as f:
         data = json.load(f)

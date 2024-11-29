@@ -3,15 +3,22 @@ import pathlib as plib
 from datetime import datetime
 
 
-def honors(resume_path, data_path):
+def honors(resume_path, data_path, lan="en"):
     # Load JSON data from your file
     with open(plib.Path(data_path, "honors.json")) as f:
         data = json.load(f)
-    tex_1 = [
-        "\cvsection{Honors \& Awards}\n",
-        "\cvsubsection{International Awards}\n",
-        "\\begin{cvhonors}\n",
-    ]
+    if lan != "en":
+        tex_1 = [
+            "\cvsection{Riconoscimenti}\n",
+            "\cvsubsection{International Awards}\n",
+            "\\begin{cvhonors}\n",
+        ]
+    else:
+        tex_1 = [
+            "\cvsection{Honors \& Awards}\n",
+            "\cvsubsection{International Awards}\n",
+            "\\begin{cvhonors}\n",
+        ]
     tex_2 = []
     for honor in data["international"]:
         tex_2.append("\cvhonor")

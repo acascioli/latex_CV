@@ -3,14 +3,20 @@ import pathlib as plib
 from datetime import datetime
 
 
-def publications(resume_path, data_path):
+def publications(resume_path, data_path, lan="en"):
     # Load JSON data from your file
     with open(plib.Path(data_path, "publications.json")) as f:
         data = json.load(f)
-    tex_1 = [
-        "\cvsection{Publications}\n",
-        "\\begin{cventries}\n",
-    ]
+    if lan != "en":
+        tex_1 = [
+            "\cvsection{Pubblicazioni}\n",
+            "\\begin{cventries}\n",
+        ]
+    else:
+        tex_1 = [
+            "\cvsection{Publications}\n",
+            "\\begin{cventries}\n",
+        ]
     tex_2 = []
     for ed in data["publications"]:
         tex_2.append("\cventry")
@@ -30,7 +36,8 @@ def publications(resume_path, data_path):
         tex_2.append("{\\begin{cvitems}")
         tex_2.append("\item {{{title}}}".format(title=ed["title"]))
         if ed["doi"]:
-            tex_2.append("\item {{DOI: \href{{{DOI}}}{{{DOI}}}}}".format(DOI=ed["doi"]))
+            tex_2.append(
+                "\item {{DOI: \href{{{DOI}}}{{{DOI}}}}}".format(DOI=ed["doi"]))
 
         tex_2.append("\end{cvitems}}\n")
 

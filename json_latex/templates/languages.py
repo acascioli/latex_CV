@@ -2,14 +2,20 @@ import json
 import pathlib as plib
 
 
-def languages(resume_path, data_path):
+def languages(resume_path, data_path, lan="en"):
     # Load JSON data from your file
     with open(plib.Path(data_path, "languages.json")) as f:
         data = json.load(f)
-    tex_1 = [
-        "\cvsection{Languages}\n",
-        "\\begin{cvskills}\n",
-    ]
+    if lan != "en":
+        tex_1 = [
+            "\cvsection{Lingue}\n",
+            "\\begin{cvskills}\n",
+        ]
+    else:
+        tex_1 = [
+            "\cvsection{Languages}\n",
+            "\\begin{cvskills}\n",
+        ]
     tex_2 = []
     for language in data["languages"]:
         tex_2.append("\cvskill")

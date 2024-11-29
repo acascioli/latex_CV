@@ -3,14 +3,20 @@ import pathlib as plib
 from datetime import datetime
 
 
-def presentations(resume_path, data_path):
+def presentations(resume_path, data_path, lan="en"):
     # Load JSON data from your file
     with open(plib.Path(data_path, "presentations.json")) as f:
         data = json.load(f)
-    tex_1 = [
-        "\cvsection{Conferences and Seminars}\n",
-        "\\begin{cventries}\n",
-    ]
+    if lan != "en":
+        tex_1 = [
+            "\cvsection{Conferenze}\n",
+            "\\begin{cventries}\n",
+        ]
+    else:
+        tex_1 = [
+            "\cvsection{Conferences and Seminars}\n",
+            "\\begin{cventries}\n",
+        ]
     tex_2 = []
     for ed in data["presentations"]:
         tex_2.append("\cventry")
@@ -22,7 +28,8 @@ def presentations(resume_path, data_path):
         date_obj = datetime.strptime(ed["endDate"], "%Y-%m-%d")
         endDate = date_obj.strftime("%Y-%m-%d")
         tex_2.append(
-            "{{{startDate} - {endDate}}}".format(endDate=endDate, startDate=startDate)
+            "{{{startDate} - {endDate}}}".format(
+                endDate=endDate, startDate=startDate)
         )
 
         tex_2.append("{\\vspace{-4.0mm}")

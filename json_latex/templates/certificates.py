@@ -3,14 +3,20 @@ import pathlib as plib
 from datetime import datetime
 
 
-def certificates(resume_path, data_path):
+def certificates(resume_path, data_path, lan="en"):
     # Load JSON data from your file
     with open(plib.Path(data_path, "certificates.json")) as f:
         data = json.load(f)
-    tex_1 = [
-        "\cvsection{Certificates}\n",
-        "\\begin{cvhonors}\n",
-    ]
+    if lan == "en":
+        tex_1 = [
+            "\cvsection{Certificates}\n",
+            "\\begin{cvhonors}\n",
+        ]
+    else:
+        tex_1 = [
+            "\cvsection{Certificati}\n",
+            "\\begin{cvhonors}\n",
+        ]
     tex_2 = []
     for certificate in data["certificates"]:
         tex_2.append("\cvhonor")

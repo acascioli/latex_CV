@@ -1,16 +1,23 @@
 import json
 import pathlib as plib
 from datetime import datetime
+import locale
 
 
-def education(resume_path, data_path):
+def education(resume_path, data_path, lan="en"):
     # Load JSON data from your file
     with open(plib.Path(data_path, "education.json")) as f:
         data = json.load(f)
-    tex_1 = [
-        "\cvsection{Education}\n",
-        "\\begin{cventries}\n",
-    ]
+    if lan == "en":
+        tex_1 = [
+            "\cvsection{Education}\n",
+            "\\begin{cventries}\n",
+        ]
+    else:
+        tex_1 = [
+            "\cvsection{Formazione}\n",
+            "\\begin{cventries}\n",
+        ]
     tex_2 = []
     for ed in data["education"]:
         tex_2.append("\cventry")
@@ -22,21 +29,29 @@ def education(resume_path, data_path):
                 )
             )
         else:
-            tex_2.append("{{{institution}}}".format(institution=ed["institution"]))
+            tex_2.append("{{{institution}}}".format(
+                institution=ed["institution"]))
         tex_2.append("{{{location}}}".format(location=ed["location"]))
 
         if ed["startDate"]:
             date_obj = datetime.strptime(ed["startDate"], "%Y-%m-%d")
             startDate = date_obj.strftime("%b. %Y")
         else:
-            startDate = "Present"
+            if lan != "en":
+                startDate = "Presente"
+            else:
+                startDate = "Present"
         if ed["endDate"]:
             date_obj = datetime.strptime(ed["endDate"], "%Y-%m-%d")
             endDate = date_obj.strftime("%b. %Y")
         else:
-            endDate = "Present"
+            if lan != "en":
+                endDate = "Presente"
+            else:
+                endDate = "Present"
         tex_2.append(
-            "{{{startDate} - {endDate}}}".format(startDate=startDate, endDate=endDate)
+            "{{{startDate} - {endDate}}}".format(
+                startDate=startDate, endDate=endDate)
         )
 
         tex_2.append("{\\begin{cvitems}")
