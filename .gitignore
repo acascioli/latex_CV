@@ -36,3 +36,7 @@ __pycache__/
 cv_data*/
 .env
 uv.lock
+my
+my/
+.mypy_cache
+.ropeproject
