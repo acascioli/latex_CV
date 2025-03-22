@@ -27,8 +27,12 @@ __pycache__/
 
 
 # Ignore resume files with any suffix after "resume"
-resume*.tex
-resume*.pdf
+ resume*.tex
+ resume*.pdf
+ resume*.aux
+ resume*.log
 
 # Ignore cv_data directories with any suffix after "cv_data"
 cv_data*/
+.env
+uv.lock
