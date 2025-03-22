@@ -40,3 +40,4 @@ my
 my/
 .mypy_cache
 .ropeproject
+latex/my/
