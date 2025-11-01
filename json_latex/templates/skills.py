@@ -1,13 +1,20 @@
 import json
 import pathlib as plib
 
+SECTION_TITLES = {
+    "en": "Skills",
+    "it": "Competenze",
+    "de": "Kompetenzen",
+}
+
 
 def skills(resume_path, data_path, lan="en"):
     # Load JSON data from your file
     with open(plib.Path(data_path, "skills.json")) as f:
         data = json.load(f)
+    title = SECTION_TITLES.get(lan, SECTION_TITLES["en"])
     tex_1 = [
-        "\cvsection{Skills}\n",
+        f"\\cvsection{{{title}}}\n",
         "\\begin{cvskills}\n",
     ]
     tex_2 = []

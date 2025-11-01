@@ -2,21 +2,22 @@ import json
 import pathlib as plib
 from datetime import datetime
 
+SECTION_TITLES = {
+    "en": "Publications",
+    "it": "Pubblicazioni",
+    "de": "Publikationen",
+}
+
 
 def publications(resume_path, data_path, lan="en"):
     # Load JSON data from your file
     with open(plib.Path(data_path, "publications.json")) as f:
         data = json.load(f)
-    if lan != "en":
-        tex_1 = [
-            "\cvsection{Pubblicazioni}\n",
-            "\\begin{cventries}\n",
-        ]
-    else:
-        tex_1 = [
-            "\cvsection{Publications}\n",
-            "\\begin{cventries}\n",
-        ]
+    title = SECTION_TITLES.get(lan, SECTION_TITLES["en"])
+    tex_1 = [
+        f"\\cvsection{{{title}}}\n",
+        "\\begin{cventries}\n",
+    ]
     tex_2 = []
     for ed in data["publications"]:
         tex_2.append("\cventry")

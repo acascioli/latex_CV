@@ -2,58 +2,61 @@ import json
 import pathlib as plib
 from datetime import datetime
 
+SECTION_TITLES = {
+    "en": "Work Experience",
+    "it": "Esperienza",
+    "de": "Berufserfahrung",
+}
+
+PRESENT_LABEL = {
+    "en": "Present",
+    "it": "Presente",
+    "de": "Aktuell",
+}
+
 
 def work(resume_path, data_path, lan="en"):
     # Load JSON data from your file
     with open(plib.Path(data_path, "work.json")) as f:
         data = json.load(f)
-    if lan != "en":
-        tex_1 = [
-            "\cvsection{Esperienza}\n",
-            "\\begin{cventries}\n",
-        ]
-    else:
-        tex_1 = [
-            "\cvsection{Work Experience}\n",
-            "\\begin{cventries}\n",
-        ]
+
+    title = SECTION_TITLES.get(lan, SECTION_TITLES["en"])
+    present_label = PRESENT_LABEL.get(lan, PRESENT_LABEL["en"])
+    tex_1 = [
+        f"\\cvsection{{{title}}}\n",
+        "\\begin{cventries}\n",
+    ]
     tex_2 = []
-    for work in data["work"]:
+    for work_item in data["work"]:
         tex_2.append("\cventry")
-        tex_2.append("{{{job_title}}}".format(job_title=work["position"]))
-        if work["url"]:
+        tex_2.append("{{{job_title}}}".format(job_title=work_item["position"]))
+        if work_item["url"]:
             tex_2.append(
                 "{{\href{{{url}}}{{{company}}}}}".format(
-                    url=work["url"], company=work["name"]
+                    url=work_item["url"], company=work_item["name"]
                 )
             )
         else:
-            tex_2.append("{{{company}}}".format(company=work["name"]))
-        tex_2.append("{{{location}}}".format(location=work["location"]))
+            tex_2.append("{{{company}}}".format(company=work_item["name"]))
+        tex_2.append("{{{location}}}".format(location=work_item["location"]))
 
-        if work["startDate"]:
-            date_obj = datetime.strptime(work["startDate"], "%Y-%m-%d")
+        if work_item["startDate"]:
+            date_obj = datetime.strptime(work_item["startDate"], "%Y-%m-%d")
             startDate = date_obj.strftime("%b. %Y")
         else:
-            if lan != "en":
-                startDate = "Presente"
-            else:
-                startDate = "Present"
-        if work["endDate"]:
-            date_obj = datetime.strptime(work["endDate"], "%Y-%m-%d")
+            startDate = present_label
+        if work_item["endDate"]:
+            date_obj = datetime.strptime(work_item["endDate"], "%Y-%m-%d")
             endDate = date_obj.strftime("%b. %Y")
         else:
-            if lan != "en":
-                endDate = "Presente"
-            else:
-                endDate = "Present"
+            endDate = present_label
         tex_2.append(
             "{{{startDate} - {endDate}}}".format(
                 startDate=startDate, endDate=endDate)
         )
 
         tex_2.append("{\\begin{cvitems}")
-        for task in work["responsibilities"]:
+        for task in work_item["responsibilities"]:
             tex_2.append("\item {{{task}}}".format(task=task))
 
         tex_2.append("\end{cvitems}}\n")

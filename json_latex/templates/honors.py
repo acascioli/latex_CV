@@ -2,23 +2,31 @@ import json
 import pathlib as plib
 from datetime import datetime
 
+SECTION_TITLES = {
+    "en": "Honors \\& Awards",
+    "it": "Riconoscimenti",
+    "de": "Auszeichnungen",
+}
+
+SUBSECTION_TITLES = {
+    "en": "International Awards",
+    "it": "International Awards",
+    "de": "Internationale Auszeichnungen",
+}
+
 
 def honors(resume_path, data_path, lan="en"):
     # Load JSON data from your file
     with open(plib.Path(data_path, "honors.json")) as f:
         data = json.load(f)
-    if lan != "en":
-        tex_1 = [
-            "\cvsection{Riconoscimenti}\n",
-            "\cvsubsection{International Awards}\n",
-            "\\begin{cvhonors}\n",
-        ]
-    else:
-        tex_1 = [
-            "\cvsection{Honors \& Awards}\n",
-            "\cvsubsection{International Awards}\n",
-            "\\begin{cvhonors}\n",
-        ]
+
+    section_title = SECTION_TITLES.get(lan, SECTION_TITLES["en"])
+    subsection_title = SUBSECTION_TITLES.get(lan, SUBSECTION_TITLES["en"])
+    tex_1 = [
+        f"\\cvsection{{{section_title}}}\n",
+        f"\\cvsubsection{{{subsection_title}}}\n",
+        "\\begin{cvhonors}\n",
+    ]
     tex_2 = []
     for honor in data["international"]:
         tex_2.append("\cvhonor")
